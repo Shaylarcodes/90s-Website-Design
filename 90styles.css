@@ -1,0 +1,167 @@
+/* General styles */
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url("pexels-omilaev-18398513.jpg");
+  background-size: no-repeat;
+}
+
+header {
+  text-align: center;
+  background: #de63d6;
+  color: yellow;
+  padding: 10px;
+  font-size: 1.5em;
+  text-shadow: 2px 2px blue;
+}
+
+.Bio p {
+  text-align: center;
+}
+
+header marquee {
+  display: block;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  background: #53c6d6;
+  width: 250px;
+  padding: 10px;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar h2 {
+  color: white;
+  text-align: center;
+}
+
+.sidebar a {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  background: #de63d4;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border: 2px solid #3d59d8;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+
+.three-rows-container a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.three-rows-container a:hover {
+  background-color: #e1c73c;
+}
+
+.sidebar a:hover {
+  background: #e1c73c;
+  color: white;
+  border-color: #de63d4;
+  text-shadow: 2px 2px #3d59D8;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  background: rgba(16, 199, 219, 0.648);
+  border: 5px dashed #de63d4;
+  margin: 20px;
+  color: white;
+}
+
+.content h1 {
+  text-align: center;
+  font-size: 3em;
+  color: cyan;
+  text-shadow: 3px 3px purple;
+}
+
+.animated-banner {
+  background: lime;
+  color: black;
+  font-size: 1.5em;
+  padding: 10px;
+  text-align: center;
+  margin: 20px 0;
+  animation: slide 5s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+footer {
+  background: magenta;
+  color: cyan;
+  font-weight: bold;
+}
+
+.three-rows-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+}
+
+.row {
+  padding: 10px;
+  background-color: #53c6d6;
+  border: 1px solid #de63d4;
+  width: 175px;
+  height: 125px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 6px;
+}
+
+.tagline {
+  text-align: center;
+  font-size: 20px;
+}
+
+.gossip {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+  gap: 20px;
+}
+
+.block1 {
+  padding: 10px;
+  background-color: #de63d4;
+  width: 300px;
+  height: 200px;
+}
+
+.block2 {
+  padding: 10px;
+  background-color: #de63d4;
+  width: 400px;
+  height: 200px;
+  justify-content: center;
+}
+
+.gossip .block1 p {
+  font-size: 13px;
+}
+
+.profiles {
+  background-color: #3d59d8;
+}/*# sourceMappingURL=90styles.css.map */
